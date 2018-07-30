@@ -43,5 +43,33 @@ header h1{
     font-weight: bold;
     color: #c0c0c0;
     float:right;
-
 }
+
+nav{
+    float: right;
+    clear: right;
+}
+nav li{
+    float: right;
+    margin: 20px 30px 0 5px;
+}
+nav li a{
+    color: #808080;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:3px 15px;
+}
+nav li a:hover{
+    background: url(img/bg-li-current.gif) repeat-x 0 0;
+    color: #ffffff;
+    border-radius: 4px;
+}
+nav li.current a{
+    background: url(img/bg-li-current.gif) repeat-x 0 0;
+    color: #ffffff;
+    border: 1px solid #00224b;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4x;
+    border-radius: 4px;
+ }
