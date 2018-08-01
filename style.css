@@ -73,12 +73,21 @@ nav li.current a{
     -webkit-border-radius: 4x;
     border-radius: 4px;
  }
+ 
+ @font-face {
+    font-family: Trebuchet; /* Гарнитура шрифта */
+    src: url(fonts/Trebuchet.ttf); /* Путь к файлу со шрифтом */
+}
 
  .slider-block{
-     background: url(img/bg-slider-block.png)no-repeat 0 0;
-     height: 332px;
-     padding: 85px 50px 0;
- }
+    background: url(img/bg-slider-block.png)no-repeat 0 0;
+    height: 332px;
+    padding: 85px 50px 0;
+    color: #fff;
+    font-size: 29px;
+    font-family: Trebuchet;
+
+}
 
                             /*slider*/
 .flexslider {
