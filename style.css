@@ -86,7 +86,29 @@ nav li.current a{
     color: #fff;
     font-size: 29px;
     font-family: Trebuchet;
+    line-height: 34px;
 
+}
+
+.fs35{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px 0 35px;
+}
+
+.started{
+    background: url(img/arrowStarted.png) no-repeat 95% 60%,
+                url(img/bg-stated.gif) repeat-x 0 0; 
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #c1525f;
+    padding: 17px 50px 10px 20px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
 }
 
                             /*slider*/
