@@ -81,7 +81,7 @@ nav li.current a{
 
  .slider-block{
     background: url(img/bg-slider-block.png)no-repeat 0 0;
-    height: 332px;
+    height: 251px;
     padding: 85px 50px 0;
     color: #fff;
     font-size: 29px;
@@ -98,8 +98,7 @@ nav li.current a{
 }
 
 .started{
-    background: url(img/arrowStarted.png) no-repeat 95% 60%,
-                url(img/bg-stated.gif) repeat-x 0 0; 
+    background: url(img/bg-stated.gif) repeat-x 0 0;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -110,6 +109,52 @@ nav li.current a{
     -webkit-border-radius:10px;
     border-radius: 10px;
 }
+
+.started:hover{
+    background: url(img/arrowStarted.png) no-repeat 95% 60%,
+                url(img/bg-stated.gif) repeat-x 0 0; 
+}
+
+.blurbo{
+    background-color: #cccccc;
+    padding: 35px 0 22px 50px;
+    border-bottom: 2px solid #999797;
+}
+
+.blurbo li{
+    float: left;
+    padding: 12px 0 12px 90px;
+    width: 150px;
+    margin-right: 75px;
+}
+
+.blurbo li:last-child{
+    margin-right: 0;
+}
+
+.blurbo h3{
+    font-size: 15px;
+    color: #575757;
+}
+
+.blurbo:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.blurbo li.money{
+    background: url(img/bg-money.png) no-repeat 0 50%;
+}
+
+.blurbo li.clock{
+    background: url(img/bg-clock.png) no-repeat 0 50%;
+}
+
+.blurbo li.contact{
+    background: url(img/bg-contact.png) no-repeat 0 50%;
+}
+
 
                             /*slider*/
 .flexslider {
