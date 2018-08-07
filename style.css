@@ -104,7 +104,7 @@ nav li.current a{
     font-weight: bold;
     text-transform: uppercase;
     color: #c1525f;
-    padding: 17px 50px 10px 20px;
+    padding: 15px 50px 12px 20px;
     -o-border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius:10px;
@@ -199,6 +199,12 @@ nav li.current a{
     background-image: linear-gradient(to top,#fefefe,#e5e5e5);
 }
 
+.middle-block:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .disign{
     list-style-image: url(img/arrow1.png);
     list-style-position: inside;
@@ -217,12 +223,99 @@ nav li.current a{
     color: #0f4db6;
 }
 
-.middle-block:after{
+footer{
+   background:url(img/border-footer.gif) repeat-x #eaeaea;
+   border-radius: 0 0 6px 6px;
+   -o-border-radius: 0 0 6px 6px;
+   -moz-border-radius: 0 0 6px 6px;
+   -webkit-border-radius: 0 0 6px 6px;
+}
+
+.top-footer{
+    padding: 25px 0 10px 41px;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-footer>li{
+    float: left;
+}
+.top-footer h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: #585858;
+    margin-bottom: 30px;
+}
+
+.Browse-Site{
+    width: 120px;
+}
+
+.Browse-Site a{
+    color: #4f4f4f;
+}
+
+.Our-Test{
+    width: 310px;
+    margin: 0 60px 0 105px;
+    color: #4f4f4f;
+}
+
+.Our-Test .bold{
+    color: #00000f;
+    font-weight: bold;
+}
+
+.Our-Blog{
+    width: 285px;
+    color: #4f4f4f;
+    line-height: 15px;
+}
+
+.Our-Blog .blue{
+    color: #0f4db6;
+    font-weight: bold;
+}
+.data{
+    margin-top: 16px;
+}
+
+.bottom-footer{
+    padding: 25px 41px 26px;
+    border-top: 1px solid #ffffff;
+}
+
+.bottom-footer .logo{
+    float: right;
+}
+.social{
+    float: right;
+    margin-right: 73px;
+}
+
+.social li{
+    float: left;
+    margin-right: 15px;
+}
+.social a{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(img/sprites.png) no-repeat 0 0;
+}
+
+.social a.in{
+    background-position: -16px 0;
+}
+
+.social a.f{
+    background-position: -32px 0;
+}
+
+.top-footer:after{
     content: '';
     display: table;
     clear: both;
 }
-
                             /*slider*/
 .flexslider {
 background: #fff;
